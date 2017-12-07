@@ -1,0 +1,9 @@
+body {
+	background-color: #c5f442;
+}
+
+#background {
+	background-repeat: no-repeat;
+	background-size: 100%;
+	max-width: 1000px;
+}
