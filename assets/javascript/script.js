@@ -1,7 +1,7 @@
 console.log("yo")
  
 // Before you can make any part of our site work, you need to create an array of strings, each one related to a topic that interests you. Save it to a variable called topics.
-var animals = ["toad", "deer", "elk"];
+var animals = ["toad", "deer", "elk", "bear", "raccoon", "moose", "eagle", "seal"];
 // We chose animals for our theme, but you can make a list to your own liking.
 // Your app should take the topics in this array and create buttons in your HTML.
 // Try using a loop that appends a button for each string in the array.
@@ -9,7 +9,7 @@ function generateButtons(){
     for (var i = 0; i < animals.length; i++){
         
         var button = $("<button>");
-    
+        button.addClass("btn btn-dark")
         button.text(animals[i])
         button.attr("id", "gifBtn")
 
