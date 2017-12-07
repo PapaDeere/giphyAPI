@@ -9,7 +9,7 @@ function generateButtons(){
     for (var i = 0; i < animals.length; i++){
         
         var button = $("<button>");
-        button.addClass("btn btn-dark")
+        button.addClass("btn btn-dark btn-lg")
         button.text(animals[i])
         button.attr("id", "gifBtn")
 
